@@ -23,7 +23,7 @@ Ls-a all files with dots
 Ls-h , used to shows files KB, MB GB, instead in row number
 Ls-v organize by name , natural order
 part 4
-1- ssh -I “labsuser.pem” ubuntu@54.234.178.130
+1- ssh -I labsuser.pem ubuntu@54.234.178.130
  
 part 5
 1- git clone git@github.com:corewater95/labs.git
