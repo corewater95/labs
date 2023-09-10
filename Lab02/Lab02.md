@@ -1,7 +1,7 @@
 ## Lab 02
 
-- Name:
-- Email
+- Name:mustafa alnaqishbandi
+- Email:alnaqishbandi.2@wright.edu
 
 ## Part 1 Answers
 
