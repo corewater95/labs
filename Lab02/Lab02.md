@@ -9,48 +9,49 @@ The answers for this section are to help you record what steps
 are needed to create a file locally (in your cloned repo)  
 and push them (sync) with GitHub
 
-1. Add a file for tracking:
-2. Commit changes:
-3. Sync local commits with GitHub:
-4. Sync commits on GitHub to `clone`d repository:
+1. Add a file for tracking:git add Lab02.md
+2. Commit changes:git commit (here we write the update we need to do for change copy and paste then enter)
+3. Sync local commits with GitHub:we selcit the brunch we want to chnage or update buy using git pull and git push
+4. Sync commits on GitHub to `clone`d repository: first we ssh the htttp or ssh code wwe have it in our repo after that we write or upadte anychanges in our machine .
 
 ## Part 2 Answers
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1.adduser bob
+2./home/bob
+3.no,because my user isnt with same bob's group
+4.su bob
+5.cd/home
+6.yes, cause bob can add files to his directory (he is the asministrator of his directory).
+7.su -ubuntu 
+8.cd/home
 
 ## Part 3 Answers
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
-5.
-6.
+1.groupadd crew
+2.usermod -a- g sudo bob 
+usermod -a -g sudo ubuntu 
+3.chgrp cre DirA
+4.su bob
+5.sudo mkdir mo.txt
+6.both users in the same group
 
 ## Part 4 Answers
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
+1..sudo touch sudowho.txt
+2.-rw-r--r--
+3.sudo vim touch sudowho.txt
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
-3. User:
+1. `ssh` command before configuring `config` file:ssh -i labsuser.pem ubuntu@54.234.178.130
+2. HostName:54.234.178.130
+3. User:ubuntu@54.234.178.130
 4. IdentityFile:
 5. `~/.ssh/config` contents:
 
