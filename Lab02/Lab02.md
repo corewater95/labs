@@ -12,16 +12,16 @@ and push them (sync) with GitHub
 1. Add a file for tracking:git add Lab02.md
 2. Commit changes:git commit (here we write the update we need to do for change copy and paste then enter)
 3. Sync local commits with GitHub:we selcit the brunch we want to chnage or update buy using git pull and git push
-4. Sync commits on GitHub to `clone`d repository: first we ssh the htttp or ssh code wwe have it in our repo after that we write or upadte anychanges in our machine .
+4. Sync commits on GitHub to `clone`d repository: gi pull 
 
 ## Part 2 Answers
 
 For each, write the command used or answer the question posed.
 
-1.adduser bob
-2./home/bob
+1.adduser mu
+2./home/mu
 3.no,because my user isnt with same bob's group
-4.su bob
+4.su mu
 5.cd/home
 6.yes, cause bob can add files to his directory (he is the asministrator of his directory).
 7.su -ubuntu 
@@ -31,11 +31,11 @@ For each, write the command used or answer the question posed.
 
 For each, write the command used or answer the question posed.
 
-1.groupadd crew
-2.usermod -a- g sudo bob 
+1.addgroup crew
+2.usermod -a- g sudo mu 
 usermod -a -g sudo ubuntu 
 3.chgrp cre DirA
-4.su bob
+4.su mu
 5.sudo mkdir mo.txt
 6.both users in the same group
 
