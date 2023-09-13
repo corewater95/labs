@@ -20,10 +20,10 @@ For each, write the command used or answer the question posed.
 
 1.adduser mu
 2./home/mu
-3.no,because my user isnt with same bob's group
+3.no,because my user isnt with same mu's group
 4.su mu
 5.cd/home
-6.yes, cause bob can add files to his directory (he is the asministrator of his directory).
+6.yes, cause mu can add files to his directory (he is the asministrator of his directory).
 7.su -ubuntu 
 8.cd/home
 
@@ -34,7 +34,7 @@ For each, write the command used or answer the question posed.
 1.addgroup crew
 2.usermod -a- g sudo mu 
 usermod -a -g sudo ubuntu 
-3.chgrp cre DirA
+3.chgrp crew DirA
 4.su mu
 5.sudo mkdir mo.txt
 6.both users in the same group
@@ -52,11 +52,14 @@ For each, write the command used or answer the question posed.
 1. `ssh` command before configuring `config` file:ssh -i labsuser.pem ubuntu@54.234.178.130
 2. HostName:54.234.178.130
 3. User:ubuntu@54.234.178.130
-4. IdentityFile:
-5. `~/.ssh/config` contents:
-
+4. IdentityFile:~/.ssh/auth_ssh_keys
+5. `~/.ssh/config` contents.
+   
+Host AWS
 ```
-Paste your config file entry here
+HostName54.234.178.130
+User ubuntu
+identityfilr/home/labsuser.pem.
 ```
 
-6. `ssh` command after configuring `config` file:
+6. `ssh` command after configuring `config` file:ssh AWS
