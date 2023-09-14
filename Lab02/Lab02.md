@@ -21,7 +21,7 @@ For each, write the command used or answer the question posed.
 1.adduser mu
 2.cd/home/mu
 3.no,because my user isnt with same mu's group
-4.su mu
+4.su -mu
 5.cd/home
 6.yes, cause mu can add files to his directory (he is the asministrator of his directory).
 7.su -ubuntu 
