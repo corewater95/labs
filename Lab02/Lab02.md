@@ -35,7 +35,7 @@ For each, write the command used or answer the question posed.
 2.usermod -a -g sudo mu 
 usermod -a -g sudo ubuntu 
 3.chgrp crew DirA
-4.su mu
+4.su -mu
 5.sudo mkdir mo.txt
 6.both users in the same group
 
