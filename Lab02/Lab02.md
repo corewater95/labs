@@ -19,7 +19,7 @@ and push them (sync) with GitHub
 For each, write the command used or answer the question posed.
 
 1.adduser mu
-2./home/mu
+2.cd/home/mu
 3.no,because my user isnt with same mu's group
 4.su mu
 5.cd/home
