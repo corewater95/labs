@@ -11,7 +11,7 @@ and push them (sync) with GitHub
 
 1. Add a file for tracking:git add Lab02.md
 2. Commit changes:git commit (here we write the update we need to do for change copy and paste then enter)
-3. Sync local commits with GitHub:we selcit the brunch we want to chnage or update buy using git pull and git push
+3. Sync local commits with GitHub:gi push 
 4. Sync commits on GitHub to `clone`d repository: gi pull 
 
 ## Part 2 Answers
