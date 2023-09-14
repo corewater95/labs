@@ -32,7 +32,7 @@ For each, write the command used or answer the question posed.
 For each, write the command used or answer the question posed.
 
 1.addgroup crew
-2.usermod -a- g sudo mu 
+2.usermod -a -g sudo mu 
 usermod -a -g sudo ubuntu 
 3.chgrp crew DirA
 4.su mu
