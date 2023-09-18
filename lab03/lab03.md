@@ -1,13 +1,13 @@
 ## Lab 03
 
-- Name:
-- Email
+- Name:mustafa alnaqishbandi
+- Email:mustafa95957@outlook.com
 
 ## Part 1 Answers
 
-1. Verify here that input.txt made it to GitHub in your `Lab03` folder
-2.
-3.
+1. Verify here that input.txt made it to GitHub in your `Lab03` folder:  i created it than tracked it then commit it, after that i  pushed it to lab03 folder.
+2. sort input.txxt
+3.sort input.txt>output.txt
 
 ## Script Usage Guide
 
