@@ -52,3 +52,8 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 ## Extra Credit
 
 1. Note here if you did the extra credit so the tas can verify :)
+   answer: that what i found after alot of search , so the red color in bash is red='\033[1;31m'
+   print_error() {
+  echo -e "${red}Error: File format not allowed\e[0m" >&2
+}
+so waht i did i define red as a color after that i add var name red so i can put the code in it after that i echo the red var in error function , -e use to exit right the way if the code is fail.
