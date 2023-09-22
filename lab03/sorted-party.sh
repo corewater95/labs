@@ -23,7 +23,7 @@ echo "Sorting completed."
 
 
 
-echo "filename: "$@ red='\033[1;31m'
+echo "filename: " $@red='\033[1;31m'
 
 if [[ $@ =~ [-t]$ ]]; then
 	sort $@ > sorted.txt
