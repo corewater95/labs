@@ -2,7 +2,7 @@
 #!/bin/bash
 
 
-if [ $# -ne 1 ]; then
+if [ $#1 ]; then
   echo " $0 <filename>"
   
 fi
