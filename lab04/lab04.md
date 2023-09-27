@@ -2,7 +2,7 @@
 -Email : mustafa95956@outlook.com
 
 
-grep "\([0-9]\{3\}\|[0-9]\{3\}\)[ -]\?[0-9]\{3\}[ -]\?[0-9]\{4\}" grepdata.txt
+1.grep "\([0-9]\{3\}\|[0-9]\{3\}\)[ -]\?[0-9]\{3\}[ -]\?[0-9]\{4\}" grepdata.txt
 2. grep -no "^[0-9]\{3\} " grepdata.txt
 3. grep -no " [0-9]\{4\}$" grepdata.txt
 4. grep -ni "CA " grepdata.txt
