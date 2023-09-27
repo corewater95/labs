@@ -2,11 +2,11 @@
 -Email : mustafa95956@outlook.com
 
 
-1.grep "\([0-9]\{3\}\|[0-9]\{3\}\)[ -]\?[0-9]\{3\}[ -]\?[0-9]\{4\}" grepdata.txt
-2. grep -no "^[0-9]\{3\} " grepdata.txt
-3. grep -no " [0-9]\{4\}$" grepdata.txt
-4. grep -ni "CA " grepdata.txt
-5. grep -E -o -n "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" grepdata.txt
+1.grep -E '[0-9]{4}[xX][0-9]{4}' grepdata.txt
+2. grep -i "CA" grepdata.txt
+3. grep -E '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b' grepdata.txxt
+4. grep -E '20[0-9]{2}' grepdata.txt
+
 
 ## Part 2 Answers
 
