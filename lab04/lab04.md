@@ -23,5 +23,5 @@
 2. awk '/42 / {print}' records.txt
 3. awk '/wright/{print $2",",$1":",$3}' records.txt
 4. awk '$6 ~ /1234/ { print $2,"favorite number is: "$4}' records.txt
-5. awk '{gsub("space.edu", "universe.edu");print}' records.txt > update1.txt
-6. awk '{gsub($6 , "N0T@PL@!NP@$$W0RD");print}' records.txt > update2.txt
+5. awk '{gsub("space.edu", "universe.edu");print}' records.txt > update.txt
+6. awk '{gsub($6 , "N0T@PL@!NP@$$W0RD");print}' records.txt > updateplus.txt
