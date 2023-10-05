@@ -1,6 +1,6 @@
 #!/bin/bash
 printHelp() {
-    echo "Usage: $0 -f <momo.jgp> -r <rmomo.jpg> 'string to modify'"
+    echo "Usage: $0 -f <file name> -r <rename file> 'string to modify'"
     echo "Options:"
     echo "  -h        Print this help message and exit"
     echo "  -f        Specify the text to find in the filename"
