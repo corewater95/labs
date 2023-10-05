@@ -7,3 +7,24 @@ printHelp() {
     echo "  -r        Specify the replacement text for the new filename"
     exit 0
 }
+while getopts ":hf:r:" opt; do
+  case $opt in
+    h)
+      printHelp
+      ;;
+    f)
+      find_str="$OPTARG"
+      ;;
+    r)
+      replace_str="$OPTARG"
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      printHelp
+      ;;
+    :)
+      echo "Option -$OPTARG requires an argument." >&2
+      printHelp
+      ;;
+  esac
+done
