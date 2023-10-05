@@ -1,8 +1,9 @@
 #!/bin/bash
-printHelp90{
-
-Usage: namechange -f find -r replace "string to modify"
- -f The text to find in the filename
- -r The replacement text for the new filename
-
+printHelp() {
+    echo "Usage: $0 -f <momo.jgp> -r <rmomo.jpg> 'string to modify'"
+    echo "Options:"
+    echo "  -h        Print this help message and exit"
+    echo "  -f        Specify the text to find in the filename"
+    echo "  -r        Specify the replacement text for the new filename"
+    exit 0
 }
