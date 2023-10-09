@@ -1,1 +1,30 @@
+## Lab 06
 
+- Name:mustafa alnaqishbandi
+- Email:mustafa95957@outlook.com
+
+## System Discovery
+
+1. CPU info:
+    - CPU brand:intel
+    - Number of cores:4
+    - Number of logical cores:8
+2. GPU info:
+    - Integrated GPU info:9.778 gb 
+    - Dedicated GPU info: 
+    - Link to driver for primary GPU: 
+3. Memory info:
+    - Physical memory (RAM) size:
+    - Virtual memory size
+4. Storage info: 
+    - Disk type:
+    - Disk manufacturer and model:
+    - Total disk size:
+5. Primary partition info:
+    - Primary partition mount point:4TB
+    - Remaining space on primary partition:2.02TB
+    - Filesystem on primary partition: from c file 
+6. BIOS / UEFI info: 
+    - BIOS or UEFI version: uefi , fx605L1.310
+    - How to access your BIOS / UEFI: accessible and to get to it first you need to open 1- Settings then click on 2- Update & Security then 3- click on Recovery then 4- under the "Advanced startup" section, click the Restart now button then 5- click on Troubleshoot then 6- click on Advanced options then 7- click the UEFI Firmware settings option then 8- click the Restart button
+Note : this is my second laptop , my main one is OS .
