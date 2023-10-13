@@ -21,8 +21,8 @@
     - Disk manufacturer and model: HMF128GD3GX013N-SKHYNIX
     - Total disk size:117 gb
 5. Primary partition info:
-    - Primary partition mount point:
-    - Remaining space on primary partition:
+    - Primary partition mount point:2TB
+    - Remaining space on primary partition: 1.01TB
     - Filesystem on primary partition: from c file 
 6. BIOS / UEFI info: 
     - BIOS or UEFI version: uefi , fx605L1.310
