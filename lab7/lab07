@@ -16,21 +16,22 @@ Virtual Machine configurations:
 ![Screenshot of Summary](relative_path_to_image_filename_here)
 
 3. Install Guest OS:
-    - Start installation: 
-    - Disk to install to:
-    - Partition size:
-    - Partition filesystem: 
+    - Start installation: start the virtual machine and devices insert guest addiions cd image on the menu bar after tht just follow the instractions .
+    - Disk to install to: the one i created early the virtual disk (partition).
+    - Partition size:30G
+    - Partition filesystem: NTFS files sstem 
 4. Remove installation media:
     - How to remove:go to the virtualbox manager window select the virtual machine and click on setting choise boot order confirm the instalation section remove.
 - How to verify: so we click in start and make sure the configured correctly , virtual machine 
 5. Guest Additions:
-    - How to insert Guest Additions:
-    - How to run the Guest Additions installer for your Guest Operating System:
-    - How to change resolution of the VM:
+    - How to insert Guest Additions:Insert Guest Additions CD image from the menuw bar in the virutal machine it will mount the iso guest assiodions.
+- How to run the Guest Additions installer for your Guest Operating System: Open a ubuntu or windowsshall  in the guest operating system.
+Navigate to the CD drive where the Guest Additions are mounted.    
+- How to change resolution of the VM: need to restart the virtual machine after that we go to view after that virtual screen we choise the reslouion we want .
 6. VM Control:
-    - Turning on the VM:
-    - Turning off the VM:
-    - Restarting the VM:
+    - Turning on the VM: simply open the vm and and we selct the vm we want to start with ( if we have difffrent one )
+    - Turning off the VM: in the guest opration system we choise shut doen or simply right click and shut it down .
+    - Restarting the VM: what i did i shut it down after that i run it again but there was other option too is poweshall use command shutdown /i
 7. Proof of your VM running your Guest OS:
 
 ![Screenshot with name in file](relative_path_to_image_filename_here)
