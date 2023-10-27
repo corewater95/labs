@@ -13,7 +13,7 @@ Virtual Machine configurations:
     - CPU - 8 
     - Disk size - 32GB
 
-![Screenshot of Summary](relative_path_to_image_filename_here)
+https://github.com/corewater95/labs/blob/main/lab7/IMG_6106.HEIC
 
 3. Install Guest OS:
     - Start installation: start the virtual machine and devices insert guest addiions cd image on the menu bar after tht just follow the instractions .
@@ -34,8 +34,7 @@ Navigate to the CD drive where the Guest Additions are mounted.
     - Restarting the VM: what i did i shut it down after that i run it again but there was other option too is poweshall use command shutdown /i
 7. Proof of your VM running your Guest OS:
 
-![Screenshot with name in file](relative_path_to_image_filename_here)
-
+https://github.com/corewater95/labs/blob/main/lab7/IMG_6106.HEIC
 
 ## Part 2 Answers
 
