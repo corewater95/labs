@@ -20,7 +20,7 @@
 7.sudo mount-5 ext4/dev/xvdb1 abeto/
 8. Skip - trust you to do it ;)
 9.sudo strings /dev/sdb1.
-11.echo "This is a test file." > mustafa.txt now we delete the file rm mustafa.txt , sudo strings /dev/sdb1 , nown maybe we still see the file because the system just make the space free for thr user to make other one but the data could still there until is overeaten on it .
+11. mustafa.txt now we delete the file rm mustafa.txt , sudo strings /dev/sdb1 , nown maybe we still see the file because the system just make the space free for thr user to make other one but the data could still there until is overeaten on it .
 12.yes, if we mount the partition, we should be able to interact with the files and folders on that partition.
 ## Part 2 Answers
 
