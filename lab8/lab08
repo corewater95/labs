@@ -1,1 +1,52 @@
-l
+
+## Lab 08
+
+- Name:mustafa alnaqishbandi 
+- Email: mustafa95957@outlook.com 
+
+## Part 1 Answers
+
+1. Disks:
+2. Unpartitioned disk:
+3. `gdisk` main menu options
+  - `p`: Print the partition table
+   - `o`: Create a new empty GUID partition table (GPT)
+   - `n`: Add a new partition
+   - `i`: Show detailed information on a partition
+   - `w`: Write table to disk and exit4. Using the `gdisk` utility on the disk:
+5.
+6.
+7.
+8. Skip - trust you to do it ;)
+9.
+10.
+11.
+12.
+
+## Part 2 Answers
+
+1. touch original.txt
+2. For `original.txt` identify:
+   - Command to find the following info about `original.txt`: stat original.txt
+   - inode number of `original.txt`: 40623
+   - number of blocks storing `original.txt`: 8
+   - number of links to `original.txt`: 1
+3. Command to create a hard link to `original.txt`: ln original.txt abeto2.txt
+   - What identifiers indicate a hard link was created? stat original.txt, the (Links: 2) which means it has been linked to another file
+   - Does modifying the hard linked file modify `original.txt`? Yes because when two files are linked, both of them going to change if one of them did change
+4. Command to create a symbolic link to `original.txt`: ln -s original.txt abeto3.txt
+   - What identifiers indicate a symbolic link was created? stat abeto3.txt showing (File: abeto3.txt -> original.txt)
+   - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Yes, it would still work because symbolic links workers when the file is existing which means as long as there is a file named "original.txt", the sym file will work.
+5. Command to create a copy of `original.txt`: cp original.txt copiedfile.txt
+   - Does modifying the copied file modify `original.txt`? No, because they are not linked, "copiedfile.txt" is just a copy that doesn't effects on  "original.txt"
+6. Command to move `original.txt` to another directory.
+   - Does it have the same inode? No, because it moved to another place
+   - Was the hard link you created affected? yes because links works when the files are in the same directory
+   - Was the symbolic link you created affected? yes because symbolic links work when the original file and symbolic file are in the same directory
+## Extra Credit Answers
+
+Line added to `/etc/fstab`:
+
+```
+Insert line here
+```
