@@ -11,29 +11,29 @@
 ## Part 2 Answers
 
 1. Getting started
-   - Command to find the PID:
-   - PID of "Terminal A":
-   - PID of "Terminal B":
+   - Command to find the PID:ps au
+   - PID of "Terminal A":787
+   - PID of "Terminal B":785
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script:
-   - Command to kill script:
-   - Effects of running the script:
-3. Using `source` to run `infinity` in Terminal B
-   - PID of script:
-   - Command to kill the script:
-   - Effects of killing the script:
+   - PID of script: 
+   - Command to kill script: 
+   - Effects of running the script: 
+Using `source` to run `infinity` in Terminal B
+   - PID of script:965
+   - Command to kill the script:sudo kill 
+   - Effects of killing the script:terminated and stopped 
 4. Running `infinity` as a background job in Terminal B
-   - Command to run script in background:
-   - Job ID of script:
-   - PID of script:
-   - Command to kill script via job id:
-   - Effects of exiting terminal:
+   - Command to run script in background: sudo bash /root/ceg2350-corewater95/Lab09/infinity.sh
+- Job ID of script:1003
+   - PID of script:1004
+   - Command to kill script via job id: kill 1003
+   - Effects of exiting terminal: the job is going to end 
 5. Run `infinity` in a `screen` or `tmux` session
-   - Command(s) to run `infinity` in a screen session:
-   - Detach from `screen` / `tmux` session:
+   - Command(s) to run `infinity` in a screen session:after entring screen by teyping screen, "sudo bash /root/ceg2350-corewater95/Lab09/infinity.sh"
+- Detach from `screen` / `tmux` session: ctrl+a then d
    - Command to show `screen` / `tmux` sessions:
-   - Effects of exiting terminal:
-   - Command / steps to kill the `screen` / `tmux` session:
+   - Effects of exiting terminal: went back to main terminal 
+   - Command / steps to kill the `screen` / `tmux` session:ps au" to find the PID for the screen session, then "kill screen_PID"
 
 ## Part 3 Answers
 
