@@ -15,9 +15,9 @@
    - PID of "Terminal A":787
    - PID of "Terminal B":785
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script: 
-   - Command to kill script: 
-   - Effects of running the script: 
+   - PID of script:  ps au | grep infinity
+   - Command to kill script: kill 818
+   - Effects of running the script: termina and stooped 
 Using `source` to run `infinity` in Terminal B
    - PID of script:965
    - Command to kill the script:sudo kill 
