@@ -37,13 +37,21 @@ Using `source` to run `infinity` in Terminal B
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
-5. Confirmed?
-6.
-7.
-8.
-9. Confirmed?
-10.
+1. git branch updates
+2. git checkout updates
+3. vim infinity and write #comments
+4. git add and commit. git push gives (fatal: The current branch updates has no upstream branch. To push the current branch and set the remote as upstream, use git push --set-upstream origin updates)
+
+5. keep follow the steps 
+
+6. git checkout main
+
+7. git merge updates
+
+8. git add and commit and push
+
+9. confirm and exit 
+
+10. write git branch then see waht branch is the green one
+
+
