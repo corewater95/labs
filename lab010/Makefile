@@ -1,4 +1,4 @@
-XX = g++
+CXX = g++
 CXXFLAGS = -std=c++11
 SRC = capture_text.cpp
 TARGET = capture_text
