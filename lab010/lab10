@@ -1,1 +1,14 @@
 
+Name: Mustafa Alnaqishbandi
+Email:mustafa95957@outlook.com
+Part 1 Answers
+
+Add your source code to your Lab10 folder in GitHub
+Part 2 Answers
+
+Compiler:gcc
+Location:/usr/bin/gcc
+Version: gcc vsserion 9.4.0
+Command to compile:GCC -o capture_text capture_text.cpp
+Command to run: ./capture_text
+Add your compiled code to your Lab10 folder in GitHub
