@@ -1,1 +1,36 @@
+Hostname of the device:
+MAC address of the NIC connected to the network:
+IP address:
+Subnet mask:
+Gateway address:
+DHCP server address:
+DNS server address:
+Public IP used for communications outside subnet:
+Part 2 Answers
 
+tcpdump command:
+
+How many packets were captured?
+Looking through the output, what traffic are you seeing?
+Fancy tcpdump command:
+
+Capturing google.com traffic:
+
+Was there a difference in output from curl when using http or https?
+Was there a difference in packet content in tcpdump when using http or https?
+What caused the difference?
+Save capture to a file:
+Read capture from a file:
+Don't forget to commit and push your capture to your Lab11 folder.
+
+Part 3 Answers
+
+Command(s) to install python3 and pip3:
+Run web server with index.html contents in your folder:
+Confirm content is being served:
+Using localhost:
+Using the system's private IP:
+Using the system's public IP:
+What's playing?
+Command to show LISTENing processes:
+Command to kill:
