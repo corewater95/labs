@@ -1,36 +1,39 @@
-Hostname of the device:
-MAC address of the NIC connected to the network:
-IP address:
-Subnet mask:
-Gateway address:
-DHCP server address:
-DNS server address:
-Public IP used for communications outside subnet:
+Hostname of the device: Laptop-88A8s4fD
+MAC address of the NIC connected to the network: 3c-7c-3f-5b-71-35
+IP address:74.131.217.90
+Subnet mask:255.255.255.0
+Gateway address:192.168.1.1
+DHCP server address:192.168.1.1
+DNS server address:192.168.1.1
+Public IP used for communications outside subnet:2603:6010:ae00:5d74:9c8f:8048:9361:b475% 
 Part 2 Answers
 
-tcpdump command:
+tcpdump command:sudo tcpdump -i eth0 host www.google.com -A
 
-How many packets were captured?
-Looking through the output, what traffic are you seeing?
-Fancy tcpdump command:
+How many packets were captured? 1878.
+Looking through the output, what traffic are you seeing? i see port number and the destionion ip adress packet size and sequance number.
+Fancy tcpdump command:sudo tcpdump -i eth0 -nnvvXSs 1514 -w capture_file.pcap 'host www.google.com for port 80 
 
-Capturing google.com traffic:
+Capturing google.com traffic:curl http://www.google.com
 
-Was there a difference in output from curl when using http or https?
-Was there a difference in packet content in tcpdump when using http or https?
-What caused the difference?
-Save capture to a file:
-Read capture from a file:
+Was there a difference in output from curl when using http or https?sudo tcpdump -i eth0 host www.google.com -w https_capture.pcap , there were more charctires in http.
+Was there a difference in packet content in tcpdump when using http or https? yes 
+What caused the difference?:the http using Packets captured using tcpdump for HTTP traffic will contain readable text, including HTML, headers, and other content in clear text.
+the https using to secure way encrypted data thats why the outcome is diffrent. 
+Save capture to a file:For HTTP: http_capture.pcap
+For HTTPS: https_capture.pcap
+Read capture from a file:sudo tcpdump -i eth0 host www.google.com -w https_capture.pcap
+
 Don't forget to commit and push your capture to your Lab11 folder.
 
 Part 3 Answers
 
-Command(s) to install python3 and pip3:
-Run web server with index.html contents in your folder:
-Confirm content is being served:
-Using localhost:
-Using the system's private IP:
-Using the system's public IP:
+Command(s) to install python3 and pip3:sudo apt install paython, sudo apt-get install -y paython3-pip.
+Run web server with index.html contents in your folder: cp index.html /path/to/Lab11/ , assyiming i have the file in my system .
+Confirm content is being served: we use curl command to confirm the private and public host is served for example ,curl http://localhost:9000
+Using localhost:curl http://localhost:9000
+Using the system's private IP:curl http://<private_ip>:9000
+Using the system's public IP:curl http://<public_ip>:9000
 What's playing?
-Command to show LISTENing processes:
-Command to kill:
+Command to show LISTENing processes:sudo lsof -i -P -n | grep LISTEN
+Command to kill:sudo kill -9 the process id we wanna kill.
