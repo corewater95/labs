@@ -1,44 +1,46 @@
 ## Lab 12
 
-- Name:
-- Email
+- Name:Mustafa alnaqishbandi
+- Email:mustafa95957@outlook.com
 
 ## Part 1 Answers:
 
-1. `tar` options:
-   - `-c`
-   - `-v`
-   - `-f`
-   - `-z`
-   - `-x`
-2. Command(s):
+tar` options:
+   - `-c`: Create an archive file
+   - `-v`: Show the progress of the archive file
+   - `-f`: Filename of the archive file
+   - `-z`: Filter archive through gzip
+   - `-x`: Extract an archive file
+2. Size of home directory: 24000
+3. Command(s): sudo tar -czvf ceg2350-mus95.tar.gz /home
+
 
 ## Part 2 Answers:
 
-1. Command:
+1. Command: sftp AWS
 2. `sftp` options:
-   - `ls`
-   - `lls`
-   - `put`
-   - `get`
-3. Command(s):
-4. Command(s):
-
+   - `ls`: Display the listing for the directory located at [path] on the remote server
+   - `lls`: Display the listing for the directory located at [path] on the local system
+   - `put`: Transfer a file or directory from [local path] on the local system to [remote path] on the remote server
+   - `get`: Transfer a file or directory from [remote path] on the remote server to [local path] on the local system
+3. Command(s): wget AWS URL
+4. Command(s): uncompress ceg2350-mus95.tar.gz > folderas  
 ## Part 3 Answers:
 
-1.
-2.
-3.
-4.
+1.sudo adduser mo95
+2.su - mo95
+3.ssh-keygen -t rsa -b 2048 -f ~/.ssh/<key_name> ,vim ~/.ssh/config
+4.ssh aws-instance
 
 ## Part 4 Answers
 
 1. Translate to network prefixes + CIDR notation:
    - Sample: `10.0.0.0 - 10.0.1.255` = `10.0.0.0/23` OR `10.0.1.0/23`
-   - `130.108.0.0 - 130.108.255.255` =
-   - `10.0.0.0 - 10.0.0.255` =
-   - `your_public_ip - your_public_ip` =
-2. How you confirmed current rules are bad, and why are they bad.
+   - `130.108.0.0 - 130.108.255.255` =130.108.0.0/16
+- `10.0.0.0 - 10.0.0.255` =10.0.0.0/24
+- `your_public_ip - your_public_ip` = 
+2. How you confirmed current rules are bad, and why are they bad. curl ipinfo.io/ip thats the command to makse sure bad rules or not we need to fetch the public IP and then attempt to connect to the instance.
+
 3. Your implementation details and **screenshot**
 4. Something invalid:
 
