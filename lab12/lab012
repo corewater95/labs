@@ -39,7 +39,8 @@ tar` options:
    - `130.108.0.0 - 130.108.255.255` =130.108.0.0/16
 - `10.0.0.0 - 10.0.0.255` =10.0.0.0/24
 - `your_public_ip - your_public_ip` = 
-2. How you confirmed current rules are bad, and why are they bad. curl ipinfo.io/ip thats the command to makse sure bad rules or not we need to fetch the public IP and then attempt to connect to the instance.
+2. How you confirmed current rules are bad, and why are they bad.
+curl ipinfo.io/ip thats the command to makse sure bad rules or not we need to fetch the public IP and then attempt to connect to the instance.
 
 3. Your implementation details and **screenshot**
 4. Something invalid:
