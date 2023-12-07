@@ -46,5 +46,20 @@ curl ipinfo.io/ip thats the command to makse sure bad rules or not we need to fe
 4. Something invalid:
 
 ## Extra Credit Answers:
+1. : Merge conflict in Lab12/problem-child.txt. Automatic merge failed; fix conflicts and then commit the result.)
+
+2. I see ("<<<<<<<" HEAD......> here the conflict
+barba
+=======
+abeto
+
+115
+">>>>>>>" improvements).....> delete it 
+
+3. sudo vim problem-child.txt and removed the >>
+
+4. it says (You have unmerged paths. fix conflicts and run "git commit". use "git merge --abort" to abort the merge)
+
+5. sudo git merge --abort
 
 ### Solve the conflict
